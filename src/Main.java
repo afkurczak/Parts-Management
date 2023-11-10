@@ -1,11 +1,8 @@
-import DataBase.CurrentTimeAndDate;
-
-import java.text.SimpleDateFormat;
-import java.util.Date;
+import DataBase.CreateIdNumber;
+import DataBase.TimeAndDateOfProduction;
 
 public class Main {
     public static void main(String[] args) {
-        String currentDateTime = CurrentTimeAndDate.TimeAndDate();
-        System.out.println(currentDateTime);
+        System.out.println(CreateIdNumber.idNumber() + ";"+ TimeAndDateOfProduction.getActualTime().toString());
     }
 }
