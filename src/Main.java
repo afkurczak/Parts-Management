@@ -1,5 +1,11 @@
+import DataBase.CurrentTimeAndDate;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello wduoaorld!");
+        String currentDateTime = CurrentTimeAndDate.TimeAndDate();
+        System.out.println(currentDateTime);
     }
 }
